@@ -8,9 +8,9 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo (ex. /assets/img/feature.jpg), or a full url to an image elsewhere
-featured-image: 10/07/2017 - EALA.JPG
+featured-image: coll035
 # optional: add extra padding around collection title for a larger image feature. 
-home-title-y-padding: 12em
+home-title-y-padding: 8em
 # optional: change position of background image, center, top, bottom
 home-banner-image-position: center
 
@@ -24,15 +24,15 @@ browse-buttons: true
 # SUBJECTS PAGE
 #
 subjects-fields: subject;creator
-subjects-min: 10
-subjects-stopwords:
+subjects-min: 4
+subjects-stopwords: up campus ministry volunteer group
 
 ##########
 # LOCATIONS PAGE
 #
 locations-fields: location;UP Diliman, Quezon City
-locations-min: 10
-locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+locations-min: 2
+locations-stopwords: quezon city
 
 ##########
 # MAP PAGE
@@ -42,7 +42,7 @@ latitude: 14.65493525
 longitude: 121.0641597
 zoom-level: 8 
 map-base: Esri_WorldImagery
-map-search: tru
+map-search: true
 map-search-fuzziness: 0.35
 map-cluster: true
 map-cluster-radius: 25
