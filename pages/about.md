@@ -18,7 +18,7 @@ Site created by:
 Cloie Sioson
 
 Contributors:
-Geo Angeles
-Joaquin Eala
-John Galino
+Geo Angeles,
+Joaquin Eala,
+John Galino, &
 Cloie Sioson
